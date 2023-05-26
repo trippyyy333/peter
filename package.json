@@ -1,10 +1,13 @@
 {
   "name": "peter",
-  "private": true,
+  "homepage": "https://trippyyy333.github.io/progzz-main/",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
@@ -12,6 +15,7 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-script": "^2.0.5",
     "react-vertical-timeline-component": "^3.6.0"
   },
   "devDependencies": {
